@@ -1,9 +1,9 @@
 import gcm as core_gcm
 from time import gmtime, strftime
 
-SENDER_ID = "987765716293"
-API_KEY = "AIzaSyAvibNcQ9OwiB_h-glX4SD4ZQjJGgWiJ9k"
-reg_id = "APA91bFTUMtf6juVPopAQoNyXtRJnZ8ruIzggPlfwpXruGH-07aEMSXT2xlJAEZKbBf0JQ3Np4ZA2FooRWZbFWRFrOVXKGkAQPed5CcuD13boElwET0Y_vAIzXo9H-3jz_YZFkZQ_J_lIDU8i6gQJKfcxYjlirk0X3Iel_m9IVAE90uJQuN24ag"
+SENDER_ID = "YOUR_SENDER_ID"
+API_KEY = "YOUR_API_KEY"
+reg_id = "YOUR_REGI_ID"
 
 gcm = core_gcm.GCM(API_KEY) 
 data = {"message": 'Hello user, Izihi [' + strftime("%a, %d %b %Y %H:%M:%S", gmtime()) + '] new', "message2" : "hello"}
